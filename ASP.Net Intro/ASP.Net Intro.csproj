@@ -5,4 +5,11 @@
     <RootNamespace>ASP.Net_Intro</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Files\**" />
+    <Content Remove="Files\**" />
+    <EmbeddedResource Remove="Files\**" />
+    <None Remove="Files\**" />
+  </ItemGroup>
+
 </Project>
